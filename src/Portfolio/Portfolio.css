@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.screen {
+	background: hsl(0, 78%, 83%);
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.box {
+	padding-top: 20px;
+	background-color: white;
+	border-radius: 32px;
+	width: 95%;
+}
+
+nav {
+	display: flex;
+	line-height: 60px;
+	padding: 0px 60px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .logo .signature {
+	float: left;
+	height: 180px;
+	cursor: pointer;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: x-large;
+	text-decoration: none;
+}
+
+nav li {
+	display: flex;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+
+nav ul.active {
+	background-color: aqua;
+}
+
+.click {
+	background: rgba(40, 148, 219, 0.918);
+	color: white;
+	border: none;
+	border-radius: 15px;
+	padding: 15px 20px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile .paragraph {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-left: 40px;
+	width: 40%;
+}
+.profile .p1 {
+	color: red;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.profile .head1 {
+	display: flex;
+	font-size: 30px;
+	position: relative;
+}
+
+.profile h1 {
+	z-index: 1;
+}
+
+.profile .sun {
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	left: 300px;
+	bottom: 5px;
+}
+
+.profile .p2 {
+	color: gray;
+}
+
+.btnarrow {
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 10px;
+}
+.hire {
+	font-size: 15px;
+	background: rgba(40, 148, 219, 0.918);
+	padding: 15px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 15px;
+	color: white;
+}
+
+.footer {
+	display: flex;
+	gap: 10px;
+}
+
+.imageside {
+	overflow: hidden;
+	position: relative;
+	display: flex;
+}
+
+.man {
+	height: 550px;
+	width: 730px;
+	z-index: 1;
+}
+
+.circle {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+}
